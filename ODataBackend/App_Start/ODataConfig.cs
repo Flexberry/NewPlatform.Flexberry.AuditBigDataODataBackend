@@ -56,12 +56,12 @@
 
             // Create EDM model builder
             var assemblies = new[]
-            {  
-                Assembly.Load("NewPlatform.Flexberry.AuditBigData.Objects"),
+            {
                 typeof(ApplicationLog).Assembly,
                 typeof(UserSetting).Assembly,
                 typeof(FlexberryUserSetting).Assembly,
                 typeof(Lock).Assembly,
+                typeof(AuditRecord).Assembly
             };
 
             var builder = new DefaultDataObjectEdmModelBuilder(assemblies);
