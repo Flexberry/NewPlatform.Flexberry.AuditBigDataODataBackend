@@ -1,0 +1,10 @@
+version: '3'
+services:
+    AuditBigDataBackend:
+        environment:
+        - CONNECTION_STRING=
+        - DATA_SERVICE=NewPlatform.Flexberry.ORM.ClickHouseDataService, NewPlatform.Flexberry.ORM.ClickHouseDataService
+ 
+        image: "dh.ics.perm.ru/flexberry/audit-big-data-odata-backend:latest"
+        ports:
+        - "6505:6505"
