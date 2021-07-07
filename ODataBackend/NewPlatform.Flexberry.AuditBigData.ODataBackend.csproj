@@ -245,8 +245,6 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Content Include="App_Start\UnityConfig.cs.pp" />
-    <Content Include="App_Start\UnityWebApiActivator.cs.pp" />
     <None Include="packages.config" />
     <Content Include="Global.asax" />
     <Compile Include="Global.asax.cs">
